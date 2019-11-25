@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/space.7">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/idProfil"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/space.30"
+        android:src="@drawable/ic_user"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/space.5"
+        android:gravity="center"
+        android:text="@string/txt_name"
+        android:textSize="@dimen/space.10" />
+
+    <LinearLayout
+        android:id="@+id/idLyEditProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_editprofil"
+            android:textSize="@dimen/font.10" />
+
+        <ImageView
+            android:layout_width="@dimen/space.20"
+            android:layout_height="@dimen/space.20"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_arrow" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space.125"
+        android:layout_gravity="center"
+        android:background="@drawable/form_user"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="@dimen/space.50"
+            android:layout_height="@dimen/space.50"
+            android:src="@drawable/ic_wallet" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_cashbalanced"
+            android:textColor="@color/black"
+            android:textSize="@dimen/space.15" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_value"
+            android:textColor="@color/orange_1"
+            android:textSize="@dimen/space.20" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/idRlAskWhiteDraw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/idAskWhitDraw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/txt_askwhitedrawal"
+            android:textSize="@dimen/font.15" />
+
+        <ImageView
+            android:layout_width="@dimen/space.20"
+            android:layout_height="@dimen/space.20"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_arrow" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/Turquoise_Light" />
+
+    <RelativeLayout
+        android:id="@+id/idRlWhitDraw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/idTransaksiHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/txt_transactionhistory"
+            android:textSize="@dimen/font.15" />
+
+        <ImageView
+            android:layout_width="@dimen/space.20"
+            android:layout_height="@dimen/space.20"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_arrow" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/Turquoise_Light" />
+
+</LinearLayout>

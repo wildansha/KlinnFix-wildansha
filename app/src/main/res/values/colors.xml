@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingDefaultResource">
+    <color name="colorPrimary">#184378</color>
+    <color name="colorPrimaryDark">#143866</color>
+    <color name="colorAccent">#184378</color>
+
+    <color name="shimmer_background">#dddddd</color>
+
+    <color name="LightGray">#e7e8e7</color>
+    <color name="Turquoise_Light">#b2e4e1</color>
+    <color name="Turquoise">#00a89c</color>
+    <color name="Turquoise_Dark">#00544e</color>
+    <color name="Purple_custom">#9c00a8</color>
+    <color name="Gold_custom">#a89c00</color>
+    <color name="Red_custom">#a8000c</color>
+    <color name="DarkGray">#434d54</color>
+    <color name="Transparent">#00000000</color>
+    <color name="Trans_Gray">#26000000</color>
+    <color name="Trans_White">#88FFFFFF</color>
+    <color name="Dark_Blue">#00052e</color>
+    <color name="Light_Blue">#b2baf7</color>
+
+    <!-- Solid Color -->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#f50011</color>
+    <color name="gray">#808080</color>
+    <color name="orange">#ff8000</color>
+    <color name="orange_1">#db5400</color>
+    <color name="blue">#001be7</color>
+    <color name="light_blue">#0aeff0</color>
+    <color name="purple">#a300ff</color>
+    <color name="light_purple">#d6a4dd</color>
+    <color name="green">#a4e749</color>
+    <color name="green_1">#5bc33d</color>
+    <color name="yellow">#fff98b</color>
+    <color name="pink">#f46f6f</color>
+</resources>

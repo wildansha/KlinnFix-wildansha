@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space.100"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/space.10">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+
+            <ImageView
+                android:id="@+id/idImageView"
+                android:layout_width="@dimen/space.20"
+                android:layout_height="@dimen/space.20"
+                android:src="@drawable/ic_lock" />
+
+
+            <EditText
+                android:id="@+id/idTO"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/space.2"
+                android:layout_toRightOf="@+id/idImageView"
+                android:layout_weight="1"
+                android:background="@drawable/form_editext"
+                android:gravity="center"
+                android:hint="" />
+
+            <ImageView
+                android:layout_width="@dimen/space.20"
+                android:layout_height="@dimen/space.20"
+                android:layout_toRightOf="@+id/idTO"
+                android:src="@drawable/ic_mote" />
+
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="@dimen/space.15"
+            android:layout_gravity="left"
+            android:background="@color/black" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+
+            <ImageView
+                android:id="@+id/idImageFrom"
+                android:layout_width="@dimen/space.20"
+                android:layout_height="@dimen/space.20"
+                android:src="@drawable/ic_locc" />
+
+
+            <EditText
+                android:id="@+id/idFrom"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/space.2"
+                android:layout_toRightOf="@+id/idImageFrom"
+                android:layout_weight="1"
+                android:background="@drawable/form_editext"
+                android:gravity="center"
+                android:hint="" />
+
+            <ImageView
+                android:layout_width="@dimen/space.20"
+                android:layout_height="@dimen/space.20"
+                android:layout_toRightOf="@+id/idFrom"
+                android:src="@drawable/ic_row" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:padding="@dimen/space.20">
+
+
+        <LinearLayout
+            android:layout_width="@dimen/space.200"
+            android:layout_height="@dimen/space.100"
+            android:background="@color/black"
+            android:padding="@dimen/space.10"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:text="11 min 2Km"
+                android:layout_marginTop="@dimen/space.20"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Fast Test Route"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

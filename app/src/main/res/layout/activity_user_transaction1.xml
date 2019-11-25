@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+<!--    <include-->
+<!--        layout="@layout/action_bar_all"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content" />-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="@dimen/space.10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="General Cleaning"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font.15" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space.5"
+            android:text="Time And Location "
+            android:textColor="@color/black"
+            android:textSize="@dimen/font.12" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space.5"
+            android:background="@drawable/form_editext"
+            android:hint=" Sunday 22 Oktober 2020" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space.5"
+            android:background="@drawable/form_editext"
+            android:hint=" 01:27 PM" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space.5"
+            android:background="@drawable/form_editext"
+            android:hint=" Jakarta No 81. Uki" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space.5"
+            android:text="Notes"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font.12" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space.5"
+            android:background="@drawable/form_editext"
+            android:hint=" Jakarta No 81. Uki" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space.5"
+            android:text="Attachment"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font.12" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space.5"
+            android:background="@drawable/form_editext"
+            android:hint=" myimage.jpg" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space.5"
+            android:text="Payment Detail"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font.12" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/space.5"
+            android:background="@drawable/form_editext"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/idRp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text=" Rp. "
+                android:textColor="@color/black"
+                android:textSize="@dimen/space.10" />
+
+            <TextView
+                android:id="@+id/idValues"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Rp. 165.000"
+                android:textColor="@color/black"
+                android:textSize="@dimen/space.10" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/space.5"
+            android:layout_marginBottom="@dimen/space.5"
+            android:background="@drawable/form_editext"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/idTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text=" Total "
+                android:textColor="@color/black"
+                android:textSize="@dimen/space.10" />
+
+            <TextView
+                android:id="@+id/idTotalValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Rp. 165.000"
+                android:textColor="@color/black"
+                android:textSize="@dimen/space.10" />
+
+        </RelativeLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/space.10"
+            android:background="@drawable/button"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/idTxtLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Cancel"
+                android:textColor="@color/white"
+                android:textSize="@dimen/space.15" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

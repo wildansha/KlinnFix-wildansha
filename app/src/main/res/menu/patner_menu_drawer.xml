@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/menupatner">
+        <item
+            android:id="@+id/idPatnerHome"
+            android:enabled="true"
+            android:title="Appoitment" />
+
+
+        <item
+            android:id="@+id/idPatnerHelpcenter"
+            android:enabled="true"
+            android:title="@string/helpcenter" />
+
+        <item
+            android:id="@+id/idPatnerSetting"
+            android:enabled="true"
+            android:title="@string/setting" />
+
+        <item
+            android:id="@+id/idPatnerShare"
+            android:enabled="true"
+            android:title="@string/share" />
+
+
+    </group>
+</menu>

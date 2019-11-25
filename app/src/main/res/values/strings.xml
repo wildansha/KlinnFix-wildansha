@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">KlinFix</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+    <string name="noaccount">No account yet ?. </string>
+    <string name="createone">Create One</string>
+    <string name="accountalready">Already a member ?. </string>
+
+    <string name="nama">Nama</string>
+    <string name="email">Email</string>
+    <string name="phone">No Telp</string>
+
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="profil">My Profil</string>
+
+    <string name="schedule">Schedule</string>
+    <string name="notifications">Notification</string>
+    <string name="incentives">Incentives</string>
+    <string name="helpcenter">Help Center</string>
+    <string name="setting">Setting</string>
+    <string name="share">Share</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="skip">Skip</string>
+
+
+    <string name="txt_name">Tatang Roswandi Ganda Wijaya</string>
+    <string name="txt_editprofil">Edit Profil</string>
+    <string name="txt_cashbalanced">Cash Balance</string>
+    <string name="txt_value">Rp. 100.000,-</string>
+    <string name="txt_askwhitedrawal">Ask WithDrawal</string>
+    <string name="txt_transactionhistory">Check Transaction History</string>
+
+    <string name="txt_names">Name : </string>
+    <string name="txt_mobilenumber">Mobile Number : </string>
+    <string name="txt_email">Email : </string>
+    <string name="txt_password">Password : </string>
+    <string name="txt_feedback">Give Us Feedback ! </string>
+    <string name="txt_save">Save</string>
+
+
+</resources>
